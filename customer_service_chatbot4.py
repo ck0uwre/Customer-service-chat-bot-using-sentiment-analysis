@@ -68,7 +68,7 @@ class AdvancedCustomerServiceBot:
     def chat_with_gpt(self, prompt: str) -> str:
         try:
             client = InferenceClient(
-                api_key="<api key goes here>"
+                api_key="<your_api_key_goes_here>"
             )
 
             system_msg = (
